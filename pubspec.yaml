@@ -1,5 +1,5 @@
 name: namethecat
-description: "A new Flutter project."
+description: "Take picture of your cat and name it with AI"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -28,6 +28,10 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  google_sign_in: ^6.1.0
+  firebase_messaging: ^15.2.5
   flutter:
     sdk: flutter
 
